@@ -1,0 +1,126 @@
+/* delete this styles after testing */
+body {
+    background: #eee;
+}
+
+/* save this styles */
+
+.banner {
+    width: 600px;
+    height: 200px;
+    background: #fff;   
+    position: relative;
+    overflow: hidden;
+  }
+
+  .banner * {
+      box-sizing: border-box;
+  }
+  
+  .slide-1__text {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 34px;
+    width: fit-content;
+    background: #fff;
+    color: #000;
+    position: absolute;
+    left: -200px;
+    top: 50%;
+    transition: all 1s ease;
+    transform: translate(0, -50%);
+    padding-bottom: 5px;
+    z-index: 3;
+  }
+  
+  .slide-1__small-text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    display: block;
+    margin-left: 33px;
+    opacity: 0;
+    transition: all 1s ease;
+  }
+  
+  .slide-1__lines {
+    width: 262px;
+    height: 161px;
+    position: absolute;
+    color: #fff;
+    left: 58px;
+    top: 20px;
+    border: 1px solid #fff;
+    z-index: 2;
+    transition: border 1s ease;
+  }
+  
+  .slide-1__clock {
+    width: 80px;
+    height: 134px;
+    left: 283px;
+    top: 200px;
+    position: absolute;
+    background: url(../img/clock-1.png) no-repeat center center;
+    background-size: contain;
+    z-index: 4;
+    transform: scale(0.6);
+    transition: all 1s ease;
+  }
+
+  .slide-1__big-clock {
+    width: 243px;
+    height: 408px;
+    left: 100%;
+    top: 50%;
+    position: absolute;
+    background: url(../img/clock-1.png) no-repeat center center;
+    background-size: contain;
+    z-index: 4;
+    transform: scale(0.6);
+    transition: all 1s ease;
+  }
+  
+  .slide-2__text {
+    text-transform: uppercase;
+    font-size: 23px;
+    width: fit-content;
+    background: #fff;
+    color: #ac1010;
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transition: all 0.5s ease;
+    transform: translate(-120%, -50%);
+    z-index: 3;
+  }
+  
+  .slide-2__small-text {
+    font-size: 14px;
+    display: block;
+    margin-left: 16px;
+  }
+  
+  .slide-2__lines {
+    width: 200px;
+    height: 150px;
+    position: absolute;
+    left: 40px;
+    top: 25px;
+    border: 1px solid #ac1010;
+    z-index: 2;
+    opacity: 0;
+    transition: all 0.3s ease;
+  }
+  
+  .slide-2__clock {
+    width: 50px;
+    height: 120px;
+    left: 215px;
+    top: 40px;
+    position: absolute;
+    background: #ac1010;
+    z-index: 4;
+    transform: translate(0, -150%);
+    transition: all 0.5s ease;
+  }
+  
