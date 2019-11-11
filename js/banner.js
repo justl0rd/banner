@@ -39,17 +39,17 @@ function startBanner() {
         }, 3000);
         setTimeout(() => {
             firstLines.style.border = "1px solid #ffffff";
-        }, 13000);
+        }, 7000);
         setTimeout(() => {
             bannerNum = 1;
             firstSlideText.style.transform = "translate(0, -50%)";
             firstClock.style.transform = "translate(0, 0) scale(0.3)";
             firstBigClock.style.transform = "translate(0, -50%) scale(0.3)";
             firstSlideSmallText.style.opacity = "0";
-        }, 13500);
+        }, 7500);
         setTimeout(() => {
             firstSlide.style.display = "none";
-        }, 14800);
+        }, 8800);
         } else if (bannerNum === 1) {
             setTimeout(() => {
                 secondSlide.style.display = "block";
@@ -69,17 +69,17 @@ function startBanner() {
             }, 3000);
             setTimeout(() => {
                 secondLines.style.border = "1px solid #ffffff";
-            }, 13000);
+            }, 7000);
             setTimeout(() => {
                 bannerNum = 2;
                 secondSlideText.style.transform = "translate(0, -50%)";
                 secondClock.style.transform = "translate(0, 0) scale(0.3)";
                 secondBigClock.style.transform = "translate(0, -50%) scale(0.3)";
                 secondSlideSmallText.style.opacity = "0";
-            }, 13500);
+            }, 7500);
             setTimeout(() => {
                 secondSlide.style.display = "none";
-            }, 14800);
+            }, 8800);
         }
         else if (bannerNum === 2) {
             setTimeout(() => {
@@ -99,17 +99,17 @@ function startBanner() {
             }, 3600);
             setTimeout(() => {
                 thirdLines.style.border = "1px solid #ffffff";
-            }, 13000);
+            }, 7000);
             setTimeout(() => {
-                bannerNum = 0;
+                    bannerNum = 0;
                 thirdLink.style.opacity = "0";
                 thirdSlideText.style.opacity = "0";
                 thirdLogo.style.opacity = "0";
-            }, 13500);
+            }, 7500);
             setTimeout(() => {
                 thirdSlide.style.display = "none";
-            }, 14800);
+            }, 8800);
         }
     }
 startBanner();
-setInterval(startBanner, 15000);
+setInterval(startBanner, 9000);
